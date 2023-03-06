@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  client:
+    container_name: client
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    privileged: true
+    stdin_open: true
+    ports:
+      - 8080:80
+
+

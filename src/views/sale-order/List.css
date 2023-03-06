@@ -1,0 +1,75 @@
+.fa {
+  font-size: larger;
+}
+
+.ml {
+  margin-left: 10px;
+}
+
+.mr {
+  margin-right: 10px;
+}
+
+.mb {
+  margin-bottom: 15px;
+}
+
+table {
+  margin-top: 15px;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+tr div {
+  width: 50%;
+  text-align: center;
+  padding: 2px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.Quote {
+  background-color: var(--quote-color);
+}
+
+.Billed {
+  background-color: var(--billed-color);
+}
+
+.Paid {
+  background-color: var(--paid-color);
+}
+
+.Delivered {
+  background-color: var(--delivered-color);
+}
+
+.Cancelled {
+  background-color: var(--cancelled-color);
+}
+
+.header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.btn-left {
+  margin-left: auto;
+}
+
+.row-center {
+  display: flex;
+  align-items: center;
+}
+
+.text-right {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.max-width {
+  max-width: 1300px;
+}
